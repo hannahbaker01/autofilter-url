@@ -34,7 +34,7 @@ PORT = int(environ.get('PORT', '8080'))
 PICS = (environ.get('PICS', 'https://telegra.ph/file/58fef5cb458d5b29b0186.jpg https://telegra.ph/file/f0aa4f433132769f8970c.jpg https://telegra.ph/file/f515fbc2084592eca60a5.jpg https://telegra.ph/file/20dbdcffaa89bd3d09a74.jpg https://telegra.ph/file/6045ba953af4def846238.jpg')).split()
 
 # Bot Admins
-ADMINS = environ.get('ADMINS', '6184402222 6315836859 5058218483 6696298084 6184402222')
+ADMINS = environ.get('ADMINS', '6184402222 6315836859 5058218483 6696298084 6184402222 5844555402 6300311908 6346353190 6756246365 6315836859')
 if len(ADMINS) == 0:
     logging.error('ADMINS is missing, exiting now')
     exit()
@@ -60,8 +60,8 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Files')
 
 # Links
-SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/+L4LupmNkuvZlZThl')
-UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/R00T_BOTS')
+SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/+xb2dD29ZrHFlMDcx')
+UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/wd_link')
 
 # Bot settings
 AUTO_FILTER = is_enabled((environ.get('AUTO_FILTER', "True")), True)
@@ -84,7 +84,7 @@ SHORTLINK_API = environ.get("SHORTLINK_API", "0")
 VERIFY_EXPIRE = int(environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = is_enabled(environ.get("IS_VERIFY", "False"), False)
 WELCOME_TEXT = environ.get("WELCOME_TEXT", script.WELCOME_TEXT)
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/TROJAN_BOTS")
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/wd_link")
 
 # stream features vars
 BIN_CHANNEL = environ.get("BIN_CHANNEL", "-1001612836755")
